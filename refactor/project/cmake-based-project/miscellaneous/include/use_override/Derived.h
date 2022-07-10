@@ -4,7 +4,8 @@
 #include "Base.h"
 
 class Derived : public Base  {
-    virtual void Reimplement(int a);
+    public:
+        virtual void Reimplement(int a);
 };
 
 #endif
